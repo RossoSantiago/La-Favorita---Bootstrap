@@ -1,0 +1,13 @@
+.parrafo1{
+    margin: 50px;
+    padding: 20px;
+    background-color:rgb(246, 212, 90);
+    border: 1px solid brown
+    
+}
+
+.parrafo2{
+    @extend .parrafo1;
+    line-height: 2;
+    
+}

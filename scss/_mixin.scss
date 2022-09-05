@@ -1,0 +1,11 @@
+@mixin parametrosh4 ($size, $color, $alineacion, $margen) {
+    font-size: $size ;
+    color: $color;
+    text-align: $alineacion;
+    margin: $margen;
+    
+}
+
+h4{
+    @include parametrosh4(45px,rgba(255, 85, 0, 0.681) ,left, 45px )
+}

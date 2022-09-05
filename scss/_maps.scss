@@ -1,0 +1,12 @@
+$apariencia: (tamletra: 25px, align: justify);
+
+.parrafo1{
+    font-size: map-get($apariencia, tamletra);
+    text-align: map-get($apariencia , align );
+}
+
+.parrafo2{
+    font-size: map-get($apariencia, tamletra);
+    text-align: map-get($apariencia , align );
+}
+
