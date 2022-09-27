@@ -46,7 +46,7 @@ h4 {
 /*****CARROUSEL***/
 .carousel-inner {
   height: 200%;
-  background-color: #8f8989; }
+  background-color: #8f8989 important; }
 
 .carousel-inner img {
   max-width: 150%;
